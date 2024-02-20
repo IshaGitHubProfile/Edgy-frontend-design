@@ -1,0 +1,382 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(17,24,39);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.head-main {
+    margin-top: 5%;
+    top:0.5%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-left: 3rem;
+}
+.head-main a {
+    margin-left: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.btn-sec {
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    margin-left: 30rem
+}
+.btn-1 {
+    color: white;
+    background-color: rgb(88, 88, 220);
+    border-radius: 10px;
+    font-weight: 500;
+    line-height: 1rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-color: transparent;
+}
+.btn-2 {
+    background-color: white;
+    color: rgb(88, 88, 220);
+    border-radius: 10px;
+    font-weight: 500;
+    line-height: 1rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-color: transparent;
+}
+.main-section {
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    margin-top: 8%;
+    margin-left: 10%;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+}
+.btn-3 {
+    color: white;
+    background-color: rgb(88, 88, 220);
+    border-radius: 10px;
+    font-weight: 500;
+    line-height: 1rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 10rem;
+    height: 3rem;
+    border-color: transparent;
+    margin-left: 2rem;
+}
+.main-heading {
+    display: flex;
+    flex-direction: column;
+    color: rgb(88, 88, 220);
+    font-weight: 900;
+    font-size: 3.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+.edgy-text {
+    color: white;
+}
+.content p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+.p-2 {
+    font-size: 1rem;
+}
+.content input , .last input{
+    background-color: white;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    width: 20rem;
+    height: 2.8rem;
+}
+.handcraft {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.handcraft-row1 , .handcraft-row2 ,.photos1 , .photos2{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    margin-top: 3%;
+}
+.handcraft h1, .team h1 , .met-text h1, .last1 h1{
+    color: white;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.handcraft h3 {
+    color: white;
+    font-weight: 100;
+}
+.hand-h {
+    color: #939dfa !important;
+    font-size: 1rem;
+}
+.hand-p {
+    font-size: 1.3rem !important;
+}
+.handcraft p {
+    color: rgb(107,114,128);
+    line-height: 1.5;
+    font-size: 1rem;
+}
+.photos {
+    display: flex;
+    flex-direction: column;
+}
+.team-links {
+    height: 1.5rem;
+    width: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.ph h4 {
+    color: white;
+    font-weight: 100;
+    font-size: 1.3rem;
+    line-height: 0.01;
+}
+.ph p {
+    color : rgb(88, 88, 220) !important; 
+    font-size: 1.2rem;
+    line-height: 2;
+}
+.team p {
+    color: rgb(219, 222, 228);
+    line-height: 1.75;
+    font-size: 1.25rem;
+    width: 75%;
+    margin-left: 9%;
+}
+.team {
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.team img {
+    height: 14rem;
+    width: 14rem;
+    border-radius: 50%;
+}
+.team-links img {
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 0;
+}
+.team-links {
+    gap: 1rem;
+    margin-left: 38%;
+}
+.metrices {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+.met-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    margin-top: 6%;
+}
+.metrices img {
+    height: 45rem;
+    width: 40rem;
+    object-fit: cover;
+    opacity: 0.25;
+}
+.mett , .last-p{
+    color: rgb(209,213,219) ;
+    font-size: 1.25rem ;
+    line-height: 1.75rem;
+}
+.my {
+    color: #939dfa;
+    line-height: 0.01;
+}
+.met-1 , .met-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 5rem;
+}
+.met-1 h1, .met-2 h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.met-1 p, .met-2 p , .ft p{
+    color: rgb(209,213,219);
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.met-2 p, .met-1 p {
+    width: 80%;
+}
+.sp {
+    font-weight: 400 !important;
+    color: white;
+}
+.pin {
+    margin-left: 8%;
+}
+.my, h1 {
+    margin: 10px;
+}
+.mett {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.last {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.last-section {
+    display: flex;
+    flex-direction: row;
+}
+.last-section input {
+    text-align: center;
+}
+.last-p {
+    width: 80%;
+}
+.pri {
+    color: rgb(209,213,219);
+    font-size: 0.975rem;
+    line-height: 1.25rem;
+    margin-top: 2.75rem;
+}
+.pri span {
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    margin-left: 6%;
+    line-height: 2;
+    font-size: 1rem;
+    align-items: flex-start;
+    margin-top: 8%;
+    color: rgb(209,213,219);
+    margin-bottom: 5%;
+}
+.line {
+    color: rgb(107,114,128);
+    width: 90%;
+}
+.ftt {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.ft {
+    margin-top: 3%;
+    margin-left: 6%;
+    display: flex;
+    flex-direction: row;
+    gap: 60rem;
+    margin-bottom: 6%;
+}
+.ftt img {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+@media only screen and (max-width:600px) {
+    .head-main {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+    .btn-sec {
+        margin-left: 0;
+    }
+    .main-section {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%;
+    }
+    .handcraft-row1, .handcraft-row2, .photos1, .photos2 {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .btn-3 {
+        width: 20rem;
+        margin-top: 2%;
+    }
+    .main-section input , .last-section input{
+        margin-left: 7%;
+        text-align: center;
+    }
+    .metrices {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    .last {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        margin-right: 3%;
+        margin-left: 2%;
+    }
+    .last-section {
+        display: flex; 
+        flex-direction: column;
+    }
+    .ft {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .metrices img {
+        width: 30rem ;
+        margin-right: 2%;
+        height: 35rem;
+    }
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(2,minmax(0,1fr));
+        gap: 2rem;
+    }
+    .btn-1 , .btn-2 {
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .last-p {
+        width: 100%;
+    }
+}
